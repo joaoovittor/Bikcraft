@@ -11,33 +11,38 @@
 </head>
 
 <body>
-  <header>
 
-    <header aria-label="Menu" class="menu-bg">
-      <div class="menu">
-        <a href="./">
-          <img src="./img/bikcraft.svg" alt="bikcraft">
-        </a>
-        <nav aria-label="Navegação">
-          <ul class="header-menu">
-            <li><a href="./biciletas.html">Bicicletas</a></li>
-            <li><a href="./seguros.html">Seguros</a></li>
-            <li><a href="./contato.html">Contato</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <header aria-label="Introdução" class="intruducao-bg">
-      <div class="intruducao">
-        <div class="intruducao-info">
-          <h1>Bicicletas Feitas sob medida.</h1>
-          <p>Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-          <li><a href="./">SELECIONE A SUA</a></li>
-        </div>
-        <div class="intruducao-img"><img src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta preta"></div>
-      </div>
-    </header>
+
+  <header aria-label="Menu" class="menu-bg">
+    <div class="menu">
+      <a href="./">
+        <img src="./img/bikcraft.svg" alt="bikcraft">
+      </a>
+      <nav aria-label="Navegação">
+        <ul class="header-menu">
+          <li><a href="./biciletas.html">Bicicletas</a></li>
+          <li><a href="./seguros.html">Seguros</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+  <main aria-label="Introdução" class="intruducao-bg">
+    <div class="intruducao">
+      <div class="intruducao-info">
+        <h1>Bicicletas Feitas sob medida <span>.</span></h1>
+        <p>Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
+        <li><a href="./">ESCOLHA A SUA</a></li>
+      </div>
+
+
+      <picture class="intruducao-img">
+        <source srcset="./img/bicicletas/nimbus.jpg" media="(max-width: 800px)">
+        <img src="./img/fotos/introducao.jpg" alt="Bicicleta preta">
+      </picture>
+    </div>
+  </main>
+
 </body>
 
 </html>
