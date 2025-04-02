@@ -18,23 +18,11 @@
   padding-bottom: 200px;
 }
 .intruducao-info h1 {
-  font-size: 4rem;
-  line-height: 1.125;
   margin-bottom: 32px;
-  color: #fff;
-  font-family: "Poppins";
-  font-weight: 600;
 }
-.intruducao-info h1 span {
-  color: #ffbb00;
-}
+
 .intruducao-info p {
-  font-size: 1.5rem;
-  line-height: 1.5;
   margin-bottom: 20px;
-  color: #b2b2b2;
-  font-family: "Roboto";
-  font-weight: 400;
 }
 
 .intruducao-img {
@@ -45,14 +33,7 @@
   border-radius: 4px;
   object-fit: cover;
 }
-@media (max-width: 1200px) {
-  .intruducao-info h1 {
-    font-size: 3rem;
-  }
-  .intruducao-info p {
-    font-size: 1.125rem;
-  }
-}
+
 @media (max-width: 800px) {
   .intruducao-bg {
     background: #111111;
@@ -66,7 +47,6 @@
   }
 
   .intruducao-info h1 {
-    font-size: 2rem;
     padding-top: 40px;
     margin-bottom: 16px;
   }

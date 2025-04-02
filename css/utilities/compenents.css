@@ -3,13 +3,9 @@
   background: linear-gradient(#ffbb00, #f2a50c);
   padding: 16px 32px;
   border-radius: 4px;
-  font-size: 1.125rem;
-  line-height: 1.33;
-  font-weight: bold;
   color: #332200;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-  font-family: "Poppins";
-  font-weight: 600;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
 }
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);

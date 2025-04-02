@@ -3,6 +3,8 @@
 
 /*Utities*/
 @import url(/css/utilities/compenents.css);
+@import url(/css/utilities/typography.css);
+@import url(/css/utilities/color.css);
 
 /*home*/
 @import url(/css/home/intruducao.css);
