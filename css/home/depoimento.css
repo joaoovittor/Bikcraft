@@ -1,0 +1,16 @@
+.depoimento-bg {
+  background-color: var(--co-p1);
+}
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  position: relative;
+}
+.depoimento-info {
+  padding: 80px;
+}
+.depoimento-info p {
+  max-width: 25ch;
+  margin-bottom: 40px;
+}
