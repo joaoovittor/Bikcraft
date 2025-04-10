@@ -5,12 +5,56 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: end;
-  position: relative;
+  overflow: hidden;
 }
 .depoimento-info {
-  padding: 80px;
+  padding: 40px 40px 80px 80px;
 }
 .depoimento-info p {
-  max-width: 25ch;
-  margin-bottom: 40px;
+  font-family: "Marriweather", serif;
+  font-style: italic;
+  font-weight: 900;
+  max-width: 32ch;
+  margin-bottom: 32px;
+  position: relative;
+}
+.depoimento-info p::before {
+  content: "“";
+  position: absolute;
+  left: -50px;
+  top: -20px;
+  font-size: 5rem;
+  color: var(--co-p2);
+}
+.depoimento-info p::after {
+  content: ",,";
+  position: absolute;
+  margin-top: -50px;
+  font-size: 5rem;
+  color: var(--co-p2);
+}
+.depoimento-img {
+  height: 100%;
+}
+.depoimento-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 0;
+}
+.img-1 {
+  top: -300px;
+}
+@media (max-width: 800px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+  }
+  .depoimento-info {
+    padding: 40px 20px;
+    justify-self: center;
+  }
+  .depoimento-img img {
+    max-height: 200px;
+  }
 }
