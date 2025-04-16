@@ -1,4 +1,6 @@
-.botao {
+.botao,
+.botao2,
+.botao3 {
   display: inline-block;
   background: linear-gradient(#ffbb00, #f2a50c);
   padding: 16px 32px;
@@ -7,8 +9,20 @@
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
 }
-.botao:hover {
+.botao3 {
+  background: #404040;
+  color: var(--co-0);
+}
+.botao2,
+.botao3 {
+  padding: 15px 40px;
+}
+.botao:hover,
+.botao2:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+.botao3:hover {
+  background: #595959;
 }
 .link {
   display: inline-block;
@@ -27,7 +41,9 @@
   color: var(--co-0);
 }
 @media (max-width: 600px) {
-  .botao {
+  .botao,
+  .botao2,
+  .botao3 {
     font-size: 1rem;
     padding: 12px 16px;
   }
