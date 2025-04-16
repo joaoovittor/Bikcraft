@@ -1,11 +1,13 @@
 .seguros-bg {
   background-color: var(--co-11);
+  padding-bottom: 50px;
 }
 .seguros-bg h2 {
   margin: 0 auto;
   max-width: 1200px;
   gap: 0 40px;
   padding-top: 50px;
+
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;

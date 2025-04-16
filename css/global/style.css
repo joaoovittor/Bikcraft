@@ -1,6 +1,6 @@
 @import url(./global.css);
 @import url(./header-menu.css);
-
+@import url(/css/global/footer.css);
 /*Utities*/
 @import url(/css/utilities/compenents.css);
 @import url(/css/utilities/typography.css);

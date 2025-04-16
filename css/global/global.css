@@ -11,6 +11,7 @@ li {
 
 a {
   text-decoration: none;
+  color: currentColor;
 }
 h1,
 h2,
