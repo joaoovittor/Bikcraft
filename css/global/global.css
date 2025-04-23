@@ -12,6 +12,7 @@ li {
 a {
   text-decoration: none;
   color: currentColor;
+  max-width: max-content;
 }
 h1,
 h2,
