@@ -3,7 +3,6 @@
 }
 .vantagens-bg h2 {
   max-width: 1200px;
-  gap: 70px;
   padding-top: 120px;
   margin: 0 auto;
   padding-left: 20px;
@@ -14,13 +13,17 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 1200px;
-  gap: 70px;
+  gap: 40px 80px;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 120px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
+}
+.vantagens h3,
+.vantagens img {
+  margin-bottom: 8px;
 }
 @media (max-width: 1040px) {
   .vantagens {
@@ -32,6 +35,7 @@
     padding-top: 60px;
   }
   .vantagens {
+    gap: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -39,6 +43,5 @@
 @media (max-width: 620px) {
   .vantagens {
     grid-template-columns: 1fr;
-    gap: 20px;
   }
 }
