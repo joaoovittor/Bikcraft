@@ -1,3 +1,11 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
 .botao,
 .botao2,
 .botao3,
@@ -80,6 +88,9 @@
 .titulo {
   padding: 20px;
   max-width: 1200px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
 }
 
