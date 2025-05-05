@@ -17,6 +17,9 @@
   color: #332200;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 .botao.seta {
   display: flex;
