@@ -5,6 +5,7 @@
 @import url(/css/utilities/compenents.css);
 @import url(/css/utilities/typography.css);
 @import url(/css/utilities/color.css);
+@import url(/css/utilities/formulario.css);
 
 /*home*/
 @import url(/css/home/intruducao.css);
@@ -25,3 +26,5 @@
 @import url(/css/seguros/vantagens.css);
 /*Termos*/
 @import url(/css/termos/termos.css);
+/*Contato*/
+@import url(/css/contato/contato.css);
