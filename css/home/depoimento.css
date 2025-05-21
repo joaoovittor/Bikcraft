@@ -1,9 +1,11 @@
 .depoimento-bg {
-  background-color: var(--co-p1);
+  background: var(--co-p1);
 }
 .depoimento {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background: url(../../img/dec/bottom-right-p.svg) no-repeat bottom 40px right
+    40px;
   align-items: end;
   overflow: hidden;
 }
@@ -45,6 +47,11 @@
 }
 .img-1 {
   top: -300px;
+}
+@media (min-width: 1200px) {
+  .depoimento-img {
+    max-height: 520px;
+  }
 }
 @media (max-width: 800px) {
   .depoimento {

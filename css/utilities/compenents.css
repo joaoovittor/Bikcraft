@@ -95,6 +95,7 @@
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+  background: url("../../img/dec/top-right.svg") no-repeat top right 40px;
 }
 
 .titulo p {
