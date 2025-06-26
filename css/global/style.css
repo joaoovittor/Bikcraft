@@ -6,6 +6,7 @@
 @import url(/css/utilities/typography.css);
 @import url(/css/utilities/color.css);
 @import url(/css/utilities/formulario.css);
+@import url(/css/utilities/animacao.css);
 
 /*home*/
 @import url(/css/home/intruducao.css);
