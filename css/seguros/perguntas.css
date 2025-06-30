@@ -53,10 +53,10 @@
   padding-left: 20px;
   max-width: 80ch;
 }
-.perguntas-frequentes dd {
+.js .perguntas-frequentes dd {
   display: none;
 }
-.perguntas-frequentes dd.ativo {
+.js .perguntas-frequentes dd.ativo {
   display: block;
 }
 @media (max-width: 800px) {
